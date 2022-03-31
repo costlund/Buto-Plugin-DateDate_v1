@@ -1,8 +1,12 @@
-version: 1.0.0
+version: 1.1.0
 history:
+  1.1.0:
+    date: '2022-03-31'
+    title: 'Minutes'
+    description: 'New method add_minutes.'
   1.0.0:
     date: '2020-07-02'
-    title: 'First version.'
+    title: 'First version'
     description: 'Manifest created.'
 plugin: {  }
 sys:

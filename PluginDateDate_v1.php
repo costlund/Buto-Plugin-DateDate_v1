@@ -25,6 +25,11 @@ class PluginDateDate_v1{
     $interval->invert = $invert;
     $this->date->add($interval);
   }
+  public function add_minutes($value, $invert = false){
+    $interval = new DateInterval('PT'.$value.'M');
+    $interval->invert = $invert;
+    $this->date->add($interval);
+  }
   public function add_months($value, $invert = false){
     /**
      * 
