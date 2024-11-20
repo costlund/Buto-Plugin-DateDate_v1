@@ -65,4 +65,8 @@ class PluginDateDate_v1{
       $this->date->setDate($this->date->format('Y'), $this->date->format('m'), $this->date->format('t'));
     }
   }
+  public function isDate($date, $format = 'Y-m-d'){
+    $d = DateTime::createFromFormat($format, $date);
+    return $d && strtolower($d->format($format)) === strtolower($date);
+  }  
 }

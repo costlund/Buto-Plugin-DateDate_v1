@@ -1,5 +1,9 @@
-version: 1.1.0
+version: 1.2.0
 history:
+  1.2.0:
+    date: '2024-11-20'
+    title: 'isDate'
+    description: 'New method isDate.'
   1.1.0:
     date: '2022-03-31'
     title: 'Minutes'

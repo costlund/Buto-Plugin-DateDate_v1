@@ -33,3 +33,9 @@ Get date.
 ```
 echo($date_v1->get_date_format('Y-m-d'));
 ```
+
+
+Is date.
+```
+echo($date_v1->isDate('2021-01-01'));
+```
